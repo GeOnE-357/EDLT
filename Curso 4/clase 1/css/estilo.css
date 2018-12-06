@@ -1,0 +1,47 @@
+*
+	{
+		margin: 0; /* Margen externo */
+		padding: 0; /* Margen interno */
+	}
+
+
+header
+	{
+		background-color: rgba(255,0,0,0.8); /* R=rojo, G=verde, B=azul, A=Transparencia. Los valores admitidos son de 0 a 255, y en transparencia de 0 a 1. */
+		padding: 2%; 
+	}
+
+h1
+	{
+		color: white;
+		text-align: center;
+	}
+
+nav
+	{
+		background-color: rgba(0,0,255,0.6);
+	}
+
+a
+	{
+		color: rgba(255,255,255,1);
+		text-decoration: none;
+	}
+
+section
+	{
+		width: 65%;
+		display: inline-block;
+	}
+
+aside
+	{
+		width: 30%;
+		display: inline-block;
+	}
+
+footer
+	{
+		background-color: black;
+		color: white;
+	}
