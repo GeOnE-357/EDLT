@@ -1,0 +1,27 @@
+*
+	{
+		margin: 0; /*Margenes externos*/
+		padding: 0; /*Margenes Internos*/
+	}
+
+section
+	{
+		width: 35.5%; /*Ancho del bloque*/
+		background-color: blue; /*color de fondo*/
+		margin-right: 60px; /*Margen externo solo de la derecha.*/
+		margin: 2%; /*Margenes externos arriba, derecha, abajo e izquierda.*/
+		padding: 5%; /*Margenes internos, funciona igual que los externos.*/
+		display: inline-block; /*Comportamiento de la etiqueta como block=bloque, inline=linea, inline-block=linea-bloque.*/
+	}
+
+article
+	{
+		background-color: yellow;
+		width: 50%;
+	}
+
+h1
+	{
+		color: red; /*Color de la tipografia.*/
+	}
+
