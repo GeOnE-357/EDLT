@@ -1,0 +1,23 @@
+*
+	{
+		margin: 0; /*Margin es un margen externo.*/
+		padding: 0; /*padding es un margen interno.*/
+	}
+
+section
+	{
+		background-color: blue; /*Color de fondo*/
+		width: 35.5%; /*Ancho del bloque, acepta px, cm, pulgadas, %.*/
+		margin:5%; /*Definimos margenes externos en el orden arriba, derecha, abajo e izquierda.*/
+		padding: 2%; /*Definimos margenes internos de igual manera que los externos.*/
+		padding-top: 4%;
+		color: white;
+		display:inline-block;	
+	}	
+
+article
+	{
+		background-color: yellow;
+		width: 50%;
+		color: blue;
+	}	
