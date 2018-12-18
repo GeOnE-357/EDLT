@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Clase 04 - Etiquetas IMG y VIDEO</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<section>
+		<picture>
+			<source media="(min-width:640px)" srcset="img/01.png">
+			<source media="(min-width:420px)" srcset="img/02.png">
+			<img src="img/fondo.jpg">
+		</picture>
+	</section>
+	<article>
+		<img src="img/fondo.jpg">
+	</article>
+	<aside>
+		<video src="video/luces.mp4" controls poster="img/fondo.jpg"></video>
+		<iframe src="https://www.youtube.com/embed/GdzrrWA8e7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</aside>
+</body>
+</html>

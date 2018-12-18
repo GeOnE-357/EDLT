@@ -1,0 +1,31 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+section, article, aside /*Los elementos separados con coma, tienen todos los mismos atributos definidos en la llaves.*/
+	{
+		width: 90%;
+		margin: 1% 5%;
+	}
+
+section	img, video /*Los elementos anidados, solo aplican el estilo cuando se cumple la condicion, en este caso, una <img> que esta dentro de una <section>.*/
+	{
+		width: 100%;
+	}
+
+article img
+	{
+		width: 50%;
+	}
+
+img
+	{
+		width: 75%;
+	}
+
+iframe
+	{
+		width: 100%;
+	}

@@ -1,0 +1,65 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		text-align: center;
+		background-color: rgba(255,150,0,1);
+		padding: 2% 0 2% 0;
+	}
+
+h1
+	{
+		color: rgba(255,255,255,1);
+	}
+
+nav
+	{
+		background-color: rgba(255,150,0,0.7);
+	}
+
+a
+	{
+		display: inline-block;
+		width: 49.6%;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+		padding: 1% 0;
+	}
+
+article
+	{
+		width: 60%;
+		margin: 2% 0 0 2%;
+		display: inline-block;
+		background-color: lightblue;
+		padding: 1%;
+	}
+
+section
+	{
+		width: 30%;
+		margin: 2% 0 0 2%;
+		display: inline-block;
+		background-color: rgba(255,150,0,0.7);
+		padding: 1%;
+	}
+
+h2
+	{
+		color: red;
+	}
+
+h3
+	{
+		color: blue;
+	}
+
+p
+	{
+		text-align: justify;
+	}
