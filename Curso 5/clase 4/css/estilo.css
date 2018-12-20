@@ -1,0 +1,34 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		padding: 2%;
+		background-color: lightblue;
+	}
+
+section, article /*lista elementos con coma, todas las etiquetas tiene los mismos atributos*/
+	{
+		width: 80%;
+		padding: 3%;
+		margin: 2% 7%;
+		background-color: lightblue;
+	}
+
+article img /*Anidar etiquetas para generar estilos particulares, solo cuando se da el caso.*/
+	{
+		width: 100%;
+	}
+
+section img
+	{
+		width: 75%;
+	}
+
+img, video
+	{
+		width: 100%;
+	}

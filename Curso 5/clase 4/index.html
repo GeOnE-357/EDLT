@@ -2,19 +2,30 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Clase 03 - Estructura HTML y CSS sec</title>
-	<link rel="stylesheet" type="text/css" href="css/estilo2.css">
+	<title>Clase 04 - Etiquetas IMG y VIDEO</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
 	<header>
-		<h1>TITULO DE SEC</h1>
+		<h1>Pagina con Videos e Imagenes</h1>
 	</header>
-	<nav>
-		<a href="index.html">INDEX</a>
-		<a href="sec.html">SEC</a>
-	</nav>
+	<section>
+		<video src="video/luces.mp4" controls loop autoplay poster="img/fondo.jpg"></video>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<img src="img/fondo.jpg">
+	</section>
 	<article>
-		<h2>Titulo de article</h2>
+		<iframe width="100%" height="700" src="https://www.youtube.com/embed/f8AP6XwT40Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<picture>
+			<source media="(min-width:640px)" srcset="img/01.png">
+			<source media="(min-width:420px)" srcset="img/02.png">
+			<img src="img/fondo.jpg">
+		</picture>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -22,28 +33,6 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</article>
-	<aside>
-		<h3>Titulo de aside</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat.</p>
-	</aside>
-	<article>
-		<h2>Titulo de article</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</article>
-	<aside>
-		<h3>Titulo de aside</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat.</p>
-	</aside>
+	<img src="img/fondo.jpg">	
 </body>
 </html>
