@@ -1,0 +1,66 @@
+/*ESTILO GENERAL*/
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		background-color: orange;
+		padding: 2%;
+		text-align: center;
+	}
+
+section
+	{
+		background-color: orange; /*Todos los estilos definidos en el "general" y no en las exepciones se aplican a las excepciones tambien, a menos que se los pise.*/
+	}
+
+nav a /*Solo aplica a las etiquetas <a> que estan dentro de la etiqueta <nav>*/
+	{
+		width: 31.33%;
+		padding: 1%;
+		display: inline-block;
+		text-align: center;
+		background-color: lightblue;
+	}
+
+/*ESTILO PC*/
+@media screen and (max-width:740px) /*Toma el tamaño de la pantalla y aplica los estilos cuando esta tiene un tamañano de 740px como minimo.*/
+	{
+		section 
+			{
+				width: 40%;
+				padding: 2%;
+				margin-left: 4%;
+				margin-top: 4%;
+				display: inline-block;
+			}
+	}
+
+/*ESTILO CELULAR*/
+@media screen and (max-width:400px)
+	{
+		section
+			{
+				width: 96%;
+				display: block;
+				background-color: red;
+				margin-left: 0;	
+			}
+
+		nav a
+			{
+				width: 98%;
+				display: block;
+			}
+	}
+
+
+
+
+
+
+
+
