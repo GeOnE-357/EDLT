@@ -1,0 +1,60 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+.prin
+	{
+		background-color: red;
+		padding: 2%;
+		color: white;
+		font-size: 4vw;
+	}
+
+#sec
+	{
+		background-color: black;
+		color: red;
+		padding: 2%;
+	}
+
+ol,ul
+	{
+		padding: 2%;
+	}
+
+table
+	{
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+td
+	{
+		text-align: center;
+		border-style: solid;
+	}
+
+th
+	{
+		background-color: red;
+		border-style: solid;
+	}
+
+
+.uno
+	{
+		background-color: rgba(255,150,0,1);
+	}
+
+.dos
+	{
+		background-color: rgba(255,150,0,0.6);
+	}
+
+.uno:hover
+	{
+		background-color: rgba(255,150,0,0.8);
+		color: white;
+	}
