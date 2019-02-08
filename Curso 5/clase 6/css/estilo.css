@@ -1,0 +1,63 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+.prin
+	{
+		background-color: red;
+		padding: 3%;
+		color: white;
+		font-size:3em;	
+	}
+
+.prin:hover
+	{
+		background-color: blue;
+		width: 50%;
+	}
+
+h2
+	{
+		font-size: 5em;
+	}
+
+h2:hover /* ":hover" cambia el atributo de la etiqueta cuando uno pasa el mouse por encima.*/
+	{
+		color: yellow;
+	}
+
+#sec
+	{
+		background-color: yellow;
+		padding: 2%;
+		font-size:3em;
+	}
+
+ol, ul
+	{
+		padding: 3%;
+		list-style: decimal-leading-zero;
+	}
+
+table
+	{
+		width: 100%;
+		border-style: none;/* estilo de bordes: solid, dashed, dotted, double*/
+		border-collapse: collapse; /*Propiedad solo de la tabla.*/
+
+	}
+
+th
+	{
+		border-style: solid;
+		border-width: 4px;
+		border-color: red;
+	}
+
+td
+	{
+		border-style: solid;
+		text-align: center;
+	}
