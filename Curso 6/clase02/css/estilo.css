@@ -1,0 +1,52 @@
+*
+	{
+		margin: 0; /*Margen exterior*/
+		padding: 0;/*Margen interior*/
+	}
+
+header
+	{
+		background-color: yellow; /*Color de fondo*/
+		padding: 30px;
+	}
+
+h1
+	{
+		color: red; /*Color de tipografia*/
+	}
+
+nav
+	{
+		background-color: orange;
+		padding: 10px;
+	}
+
+a /*etiqueta tipo linea*/
+	{
+		color: white;
+	}
+
+section /*etiqueta tipo bloque*/
+	{
+		background-color: grey;
+		width: 800px; /*Ancho*/
+		margin: 40px;
+	}
+
+h2
+	{
+		color: yellow;
+		margin: 10px;
+	}
+
+p
+	{
+		color: white;
+		margin: 10px;
+		text-align:right;/*Alineacion de texto*/
+	}
+
+#sec2 /* Llamamos al elemento que tiene un identificador.*/
+	{
+		background-color: blue;	
+	}
