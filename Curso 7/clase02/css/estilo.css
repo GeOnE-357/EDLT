@@ -1,0 +1,44 @@
+*
+	{
+		margin: 0; /*Margenes exteriores.*/
+		padding: 0; /*Margenes interiores.*/
+	}
+
+header
+	{
+		background-color: orange; /* Color de fondo.*/
+		padding: 30px;
+	}
+
+h1
+	{
+		color: white; /* Color de tipografia.*/
+	}
+
+nav
+	{
+		background-color: red;
+		padding: 20px;
+	}
+
+a
+	{
+		color: yellow;
+	}
+
+section
+	{
+		width: 600px; /*Ancho especifico.*/
+		margin: auto; /*Margen automatico.*/
+	}
+
+h2
+	{
+		text-align: center; /*Alineacion de texto.*/
+		color: red;
+	}
+
+p
+	{
+		text-align: justify;
+	}
