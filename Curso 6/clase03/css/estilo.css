@@ -1,0 +1,29 @@
+*
+	{
+		margin: 0; /*Margenes externos, arriba, abajo , izquierda y derecha.*/
+		padding: 0; /*Margenes internos, arriba, abajo , izquierda y derecha.*/ 
+	}
+
+table
+	{
+		border:2px solid; /*Define el borde de la tabla de 2 pixeles, y "solid" lo hace una linea continua.*/
+		
+		margin: 4px 2px 4px 2px; /*Lor margenes se pueden definir los 4 lados, empezando por el de arriba, siguiendo el sentido de las agujas del reloj.*/
+		/* margin-top: 20px; Este define solamente al margen de arriba. El nombre seguido del guion puede ser top, right, bottom o left. */
+		width: 50%; /*Define el ancho, tiene el 50% de ancho de la etiqueta que lo contiene.*/
+		border-collapse: collapse; /* solapa los bordes de los distintos elementos de la tabla. */
+	}
+
+th
+	{
+		border:2px solid;
+		border-color: rgba(255,0,0,0.5);
+		background-color: rgba(0,0,255,0.2);
+	}
+
+td
+	{
+		border:3px dashed;
+		border-color: rgba(145,127,2,1);
+		background-color: rgba(0,127,2,1); 
+	}
