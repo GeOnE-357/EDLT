@@ -1,0 +1,24 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		background-color: rgba(125,233,0,1);
+		color: white;
+		padding: 5%;
+	}
+
+section
+	{
+		width: 50%;
+		margin: auto;
+	}
+
+img, video
+	{
+		width: 100%;
+	}
+
