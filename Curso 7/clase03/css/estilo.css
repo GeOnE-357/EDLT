@@ -1,0 +1,23 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		background-color: rgba(255,30,30,0.5); /*las formas de poner color con, palabras en ingles, colores hexadecimales, valores rgb() y rgba().*/
+		padding: 5%;
+		width: 100%;
+	}
+
+section
+	{
+		width: 50%;
+		margin: 2% 3%; /*Se pueden definir 1, 2 o 4 valores. de arriba, derecha, abajo, izquierda.*/
+	}
+
+img, video
+	{
+		width: 100%;
+	}
