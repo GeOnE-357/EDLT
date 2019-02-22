@@ -1,0 +1,50 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		background-color: rgb(240,50,125);
+		padding: 5% 3% 5% 3%;
+	}
+
+h1
+	{
+		color: white;
+	}
+
+section
+	{
+		width: 71%;
+		display: inline-block; /*Display le da un comportamiento de linea:inline, bloque:block, linea-bloque: inline-block o nada:none.*/
+		padding: 2%;	
+	}
+
+aside
+	{
+		width: 20.5%;
+		padding: 2%;
+		display: inline-block;
+	}
+
+footer
+	{
+		background-color: black;
+		color: white;
+	}
+
+article
+	{
+		width: 20%;
+		display: inline-block;
+		padding: 2%;
+	}
+
+.grande /*para llamar a la clase se pone "." y el nombre de la clase. Ejemplo: .grande*/
+	{
+		width: 65.5%;
+		padding: 1% 5%;
+		/*tambien posee los valores de padding y display, definidos en el articulo anterior.*/
+	}

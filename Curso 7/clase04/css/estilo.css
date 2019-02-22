@@ -1,0 +1,47 @@
+*	
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		background-color: rgba(150,105,124,1);
+		padding: 4% 5% 4% 5%;
+	}
+
+section
+	{
+		width: 70%;
+		display: inline-block;
+	}
+
+aside
+	{
+		width: 29%;
+		display: inline-block;
+	}
+
+ul, ol
+	{
+		margin: 0 15%;
+	}
+
+footer
+	{
+		background-color: rgba(150,105,124,0.4);
+		padding: 2%;
+		height: 35px;
+	}
+
+article
+	{
+		width: 30%;
+		display: inline-block;
+	}
+
+.grande
+	{
+		width: 69%;
+		padding: 0% 2%;
+	}
