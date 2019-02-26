@@ -1,0 +1,59 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+			background-color: white;
+			padding: 3%;
+	}
+
+
+h1:hover /* propiedad :hover, cuando pasamos el puntero sobre la etiqueta, esta toma los nuevos atributos que definimos. */
+	{
+		color: red;
+		text-align: center;
+	}
+
+nav a /* estilo anidado, el estilo de las etiquetas "a" solo se aplican cuando estan dentro de una etiqueta "nav". */
+	{
+		color:red;
+		background-color:orange;
+		display: inline-block;
+		width: 33.33%;
+		text-align: center;
+		padding: 2% 0 2% 0; 
+	}
+
+nav a:hover /* hover que solo afecta a las etiquetas "a" que estan dentro de una etiqueta "nav". */
+	{
+		background-color: red;
+		color: white;
+	}
+
+section
+	{
+		width: 45.7%;
+		display: inline-block;
+		padding: 2%;
+	}
+
+@media screen and (max-width:400px) /* estilo que se aplica cuando la pantalla tiene un maximo de ancho de 400 pixeles, osea para celular */
+	{
+
+
+		nav a
+			{
+				width: 100%;
+				background-color: blue;
+				display: block;
+			}
+
+		section
+			{
+				width: 92%;
+				padding: 4%;
+			}
+	}
