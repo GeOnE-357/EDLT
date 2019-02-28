@@ -1,0 +1,71 @@
+/*ESTILO PC*/
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		background-color: blue;
+		color: white;
+		padding: 5%;
+	}
+
+section
+	{
+		width: 92%;
+		padding: 2%;
+		margin: 2% 2% 0 2%;
+	}
+
+h1:hover
+	{
+		color: red;
+		text-align: center;
+	}
+
+section p
+	{
+		font-size: 2.5vw; /* vw=viewport width. Toma de referencia de la pantalla para definir el tamaño de la tipografia.*/
+		text-align: justify;
+	}
+
+article
+	{
+		padding: 2%;
+		margin:2% 0 0 2%;
+		width: 18%;
+		display: inline-block;
+		float: left; /* hace flotar al elemento, en este caso a la izquierda.*/
+	}
+
+/* ESTILO DE TABLET */
+@media screen and (max-width: 800px)
+	{
+		article
+			{
+				width: 43%;
+			}
+	}
+
+/*ESTILO DE CELULAR*/
+@media screen and (max-width: 400px)
+	{
+		section p
+			{
+				font-size: 7vw;	
+			}
+
+		article
+			{
+				padding: 2% 4%;
+				width: 88%;
+			}
+
+		article p
+			{
+				text-align: justify;
+				font-size: 5vw;
+			}
+	}
