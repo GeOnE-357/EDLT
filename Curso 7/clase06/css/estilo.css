@@ -1,0 +1,71 @@
+*
+	{
+		padding: 0;
+		margin: 0;
+	}
+
+header
+	{
+		background-color: orange;
+		padding: 3%;
+	}
+
+section
+	{
+		padding: 2%;
+		margin: 4% 4% 0 4%;
+	}
+
+section p /*Anidado, solo afecta alos parrafos que estan dentro de una section.*/
+	{
+		font-size:4vw;
+		text-align: justify;
+	}
+
+h1
+	{
+		font-family: helvetica;
+	}
+
+article
+	{
+		padding: 2%;
+		margin: 2% 0 0 4%;
+		width: 16%;
+		display: inline-block;
+	}
+
+article p
+	{
+		font-size:2vw;
+		text-align: center;
+	}
+
+
+/*ESTILO DE TABLET*/
+@media screen and (max-width: 800px)
+	{
+		article
+			{
+				width: 40%;
+			}
+	}
+
+
+/*ESTILO CELULAR*/
+@media screen and (max-width: 400px)
+	{
+		article
+			{
+				margin:2% 4% 0 4%;
+				width: 88%;
+				display: block;
+			}
+
+		article p, section p
+			{
+				font-size: 5vw;
+			}
+
+	}
+
