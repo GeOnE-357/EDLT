@@ -1,0 +1,32 @@
+*
+	{
+		margin: 0; /*Margen externo*/
+		padding: 0; /*Margen interno*/
+	}
+
+h1
+	{
+		color: red;
+		font-size: 200px; /*Tamaño de fuente*/
+		text-align: center; /*Alineacion de texto: left, right, center, justify.*/
+	}
+
+header
+	{
+		background-color: yellow; /*Color de FONDO*/
+	}
+
+nav
+	{
+		background-color: orange;
+		text-align: center;
+	}
+
+a
+	{
+		color: white;
+		text-decoration: none; /*decoracion de texto.*/
+		font-family: Helvetica;
+	}
+
+/*https://github.com/GeOnE-357/EDLT*/
