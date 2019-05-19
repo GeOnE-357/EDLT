@@ -1,0 +1,32 @@
+*
+	{
+		margin:0;
+		padding: 0;
+	}
+
+header /*Header es una etiqueta de tipo bloque., por lo que puede recibir un ancho especifico.*/
+	{
+		background-color: red;
+		width: 50%;
+		margin:0 25%;/*Un valor da los 4 lados. 2 valores representan el primero arriba y abajo y el segundo izquerda - derecha.*/
+		text-align: center;
+	}
+
+a
+	{
+		background-color: blue;
+		display: inline-block; 
+		width: 33.33%;
+	}
+
+section
+	{
+		width: 60%;
+		display: inline-block;
+	}
+
+aside
+	{
+		width: 30%;
+		display: inline-block;
+	}
