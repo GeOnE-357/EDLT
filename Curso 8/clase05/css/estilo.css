@@ -1,0 +1,53 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+section
+	{
+		margin: 0 10%;
+		padding: 5%;
+	}
+
+ol, ul
+	{
+		padding: 0 5%;
+	}
+
+ol li ol li
+	{
+		background-color: yellow;
+	}
+
+li
+	{
+		background-color: red;
+	}
+
+table
+	{
+		border:solid; /*solid-dashed-dotted*/
+		border-width:2px;
+		border-collapse: collapse;
+	}
+
+tr
+	{
+		background-color: red;
+	}
+
+td,th
+	{
+		border:dashed; /*solid-dashed-dotted*/
+		border-width:2px;
+		text-align: center;
+		width: 50%;
+		color: white;
+	}
+
+td
+	{
+		color: blue;
+		border-color: black;
+	}
