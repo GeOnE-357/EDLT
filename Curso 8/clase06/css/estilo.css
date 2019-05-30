@@ -1,0 +1,72 @@
+/*
+Para trabajar con class:
+
+.fondorojo
+	{	
+		background-color: red;
+		width: 50%;
+		display: inline-block;
+		text-align: center;
+	}
+
+Para trabajar con id:
+
+#ultimo
+	{
+		background-color: yellow;
+	}*/
+
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		background-color: orange;
+		text-align: center;
+		color: white;
+		padding: 5% 0;	
+	}
+
+a
+	{
+		width: 33.33%;
+		display: inline-block;
+		text-align: center;
+		background-color: yellow;
+		padding: 2% 0;
+	}
+
+section
+	{
+		margin: 5%;
+		padding: 2.5%;
+		background-color: blue;
+	}
+
+h2
+	{
+		font-size: 8vw;
+	}
+
+@media screen and (max-width:400px)
+	{
+		a
+			{
+				width: 100%;
+				display: block;
+			}
+
+		section
+			{
+				margin: 5% 0;
+			}
+
+		p
+			{
+				font-size: 32px;
+			}
+	}
+
