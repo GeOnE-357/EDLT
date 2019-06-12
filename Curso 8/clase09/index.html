@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CLase 09 - Formularios</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<form action="secu.html" method="POST" target="_blank">
+		<label for="nombre">Nombre:</label>
+		<input class="largo" id="nombre" type="text" name="Nombre" placeholder="Juan..." required>
+		
+		<input type="number" class="largo" name="edad" placeholder="Que tan viejo sos?..." required>
+		
+		<input id="pizza" type="radio" name="comida">
+		<label for="pizza">Pizza</label>
+		<input id="helado" type="radio" name="comida">
+		<label for="helado">Helado</label>
+		<input id="milanesa" type="radio" name="comida">
+		<label for="milanesa">Milanesa</label>
+
+		
+
+		<input type="date" name="cumpleaños">
+		<input type="file" class="largo" name="archivo">
+
+		<input id="Chevrolet" type="checkbox" name="marcas">
+		<label for="Chevrolet">Chevrolet</label>
+		<input id="Ford" type="checkbox" name="marcas">
+		<input type="password" class="largo" name="contraseña">
+		<input type="mail" class="largo" name="email">
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
