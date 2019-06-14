@@ -1,0 +1,80 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+header
+	{
+		background-color: gold;
+		padding: 3%;	
+		transition: 5s;
+		-moz- transition:5s; 		/*Esto es para firefox.*/
+		-o- transition: 5s;			/*Esto hace referencia a Opera.*/
+		-webkit-transition:5s;		/*Chrome y Safari.*/
+	}
+
+
+header:hover
+	{
+		background-color:red;
+		margin: 0 0 0 20%;
+		padding: 3% 3% 3% 17%;
+	}
+
+nav a
+	{
+		background-color: orange;
+		display: inline-block;
+		padding: 2% 0;
+		width: 25%;
+		border-radius: 0px;
+		text-align: center;
+		transition: 2s;
+		-moz- transition:2s; 		/*Esto es para firefox.*/
+		-o- transition: 2s;			/*Esto hace referencia a Opera.*/
+		-webkit-transition:2s;		/*Chrome y Safari.*/
+	}
+
+nav a:hover
+	{
+		padding: 3% 0;
+		color: white;
+		background-color: purple;
+		border-radius: 20px;
+	}
+
+nav
+	{
+		background-color: orange;
+	}
+
+
+section
+	{
+		position:absolute;
+		z-index: -2;
+		top: -30px;
+
+	}
+
+section img
+	{
+		width: 30%;	
+	}
+
+
+section.normal
+	{
+		position: relative;
+		top:0;
+		padding: 5%;
+	}
+
+article
+	{
+		background-image: url("../img/gato.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 300px;
+	}
