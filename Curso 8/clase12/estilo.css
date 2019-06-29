@@ -1,0 +1,88 @@
+*
+	{
+		padding: 0;
+		margin:0;
+	}
+
+header
+	{
+		background-color: red;
+		padding: 5%;
+		text-align: center;
+		color: white;
+	}
+
+a
+	{
+		display: inline-block;
+		width: 25%;
+		padding: 2% 0;
+		text-align: center;
+		text-decoration: none;
+		font-size: 2em;
+		background-color: orange;
+	}
+
+a:hover
+	{
+		color: red;
+		background-color: pink;
+	}
+
+h1
+	{
+		font-size: 4em;
+	}
+
+section
+	{
+		width: 23%;
+		display: inline-block;
+		padding: 1%;
+	}
+
+.color
+	{
+		background-color: lightgrey;
+	}
+
+img
+	{
+		width: 100%;
+	}
+
+h2
+	{
+		font-size: 3em;
+	}
+
+p
+	{
+		font-size: 1.5em;
+	}
+
+
+@media screen and (max-width: 800px)
+	{
+		section
+			{
+				width: 48%;
+			}
+
+
+	}
+
+
+@media screen and (max-width: 400px)
+	{
+		section
+			{
+				width: 98%;
+			}
+
+		a
+			{
+				width: 100%;
+			}
+
+	}
