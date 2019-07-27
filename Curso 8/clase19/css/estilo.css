@@ -1,0 +1,29 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+form
+	{
+		background-color: orange;
+		padding: 5%;
+		margin: 5%;
+	}
+
+label
+	{
+		width: 40%;
+		display: inline-block;
+	}
+
+input
+	{
+		width: 50%;
+		margin:2% 0 0 0;
+	}
+
+input#enviar
+	{
+		margin: 2% 0 0 25%;
+	}
