@@ -1,0 +1,43 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+section
+	{
+		background-color: red;
+		width: 600px;
+		height: 300px;
+		margin: 5% auto;
+	}
+
+input
+	{
+		background-color: green;
+		border-radius: 5%;
+		padding: 2%;
+		display: block;
+		width: 200px;
+		margin: 0 auto;
+		font-size: 2em;
+		color: white;
+	}
+
+input:hover
+	{
+		background-color: grey;
+		color: black;
+	}
+
+/*Alternativa: Definir clases*/
+
+.fondoRojo
+	{
+		background-color: red;
+	}
+
+.fondoVerde
+	{
+		background-color: green;
+	}
