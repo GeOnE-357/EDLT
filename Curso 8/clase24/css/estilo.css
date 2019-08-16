@@ -1,0 +1,24 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+
+section
+	{
+		display: grid;
+		grid-template-columns: 100px 100px 100px 100px;
+		grid-template-rows: repeat(5, 100px);
+	}
+
+input
+	{
+		font-size: 3em;
+	}
+
+#res
+	{
+		grid-column: span 4;
+		width: 96%;
+	}
