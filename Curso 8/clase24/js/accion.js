@@ -11,48 +11,145 @@ function principal()
 		inp.multi.onclick=multi;
 		inp.divi.onclick=divi;
 		inp.igual.onclick=igual;
+		inp.c.onclick=borrar;
+		inp.cero.onclick=cero;
+		inp.uno.onclick=uno;
+		inp.dos.onclick=dos;
+		inp.tres.onclick=tres;
+		inp.cuatro.onclick=cuatro;
+		inp.cinco.onclick=cinco;
+		inp.seis.onclick=seis;
+		inp.siete.onclick=siete;
+		inp.ocho.onclick=ocho;
+		inp.nueve.onclick=nueve;
 
+		/*------------------ FUNCIONES QUE ENVIAN SU VALOR A LA PANTALLA ------------------*/
+		function cero()
+			{
+				var valor=inp.cero.value;
+				inp.resultado.value+=valor;
+
+			}
+
+		function uno()
+			{
+				var valor=inp.uno.value;
+				inp.resultado.value+=valor;
+
+			}
+
+		function dos()
+			{
+				var valor=inp.dos.value;
+				inp.resultado.value+=valor;
+
+			}
+
+		function tres()
+			{
+				var valor=inp.tres.value;
+				inp.resultado.value+=valor;
+
+			}
+
+		function cuatro()
+			{
+				var valor=inp.cuatro.value;
+				inp.resultado.value+=valor;
+
+			}
+
+		function cinco()
+			{
+				var valor=inp.cinco.value;
+				inp.resultado.value+=valor;
+
+			}
+
+		function seis()
+			{
+				var valor=inp.seis.value;
+				inp.resultado.value+=valor;
+
+			}
+
+		function siete()
+			{
+				var valor=inp.siete.value;
+				inp.resultado.value+=valor;
+
+			}
+
+		function ocho()
+			{
+				var valor=inp.ocho.value;
+				inp.resultado.value+=valor;
+
+			}
+
+		function nueve()
+			{
+				var valor=inp.nueve.value;
+				inp.resultado.value+=valor;
+
+			}
+
+		/*------------------ FUNCIONE QUE BORRA TODOS LOS VALORES IMPRESOS Y GUARDADOS. ------------------*/
+
+		function borrar()
+			{
+				num1=0;
+				num2=0;
+				op="";
+				inp.resultado.value="";
+				inp.cuenta.value="";
+			}
+
+		/*------------------ FUNCIONES QUE GUARDAN EL PRIMER VALOR Y DEFINEN LA OPERACION ------------------*/
 		function suma()
 			{
-				num1=inp.resultado.value;
+				num1=parseInt(inp.resultado.value); /*parseInt() convierte en un numero entero al valor que se le envia.*/
 				op="+";
-				alert(num1);
-				alert(op);
 				inp.resultado.value="";
+				inp.cuenta.value+=num1;
+				inp.cuenta.value+=op;
 			}
 
 		function resta()
 			{
-				num1=inp.resultado.value;
+				num1=parseInt(inp.resultado.value);
 				op="-";
-				alert(num1);
-				alert(op);
 				inp.resultado.value="";
+				inp.cuenta.value+=num1;
+				inp.cuenta.value+=op;
 			}
 
 		function multi()
 			{
-				num1=inp.resultado.value;
+				num1=parseInt(inp.resultado.value);
 				op="*";
-				alert(num1);
-				alert(op);
 				inp.resultado.value="";
+				inp.cuenta.value+=num1;
+				inp.cuenta.value+=op;
 			}
 
 		function divi()
 			{
-				num1=inp.resultado.value;
+				num1=parseInt(inp.resultado.value);
 				op="/";
-				alert(num1);
-				alert(op);
 				inp.resultado.value="";
+				inp.cuenta.value+=num1;
+				inp.cuenta.value+=op;
 			}
 
+		
+		/*------------------ FUNCIONES QUE GUARDAN EL SEGUNDO VALOR Y DEFINEN EL RESULTADO ------------------*/
+		
 		function igual()
 			{
-				num2=inp.resultado.value;
-				alert(num2);
+				num2=parseInt(inp.resultado.value);
 				inp.resultado.value="";
+				inp.cuenta.value+=num2;
 				resultado();/*llama a la funcion "resultado".*/
 			}
 
@@ -60,12 +157,12 @@ function principal()
 			{
 				if(op=="+")
 					{
-						inp.resultado.value=parseInt(num1)+parseInt(num2);
+						inp.resultado.value=num1+num2;
 					}
 				
 				if(op=="-")
 					{
-						inp.resultado.value=num1-num2;	
+						inp.resultado.value=num1-num2;
 					}
 
 				if(op=="*")

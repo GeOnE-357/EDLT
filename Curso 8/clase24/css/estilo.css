@@ -9,7 +9,7 @@ section
 	{
 		display: grid;
 		grid-template-columns: 100px 100px 100px 100px;
-		grid-template-rows: repeat(5, 100px);
+		grid-template-rows: 50px repeat(5, 100px);
 	}
 
 input
@@ -17,7 +17,7 @@ input
 		font-size: 3em;
 	}
 
-#res
+#res, #cuenta 
 	{
 		grid-column: span 4;
 		width: 96%;
