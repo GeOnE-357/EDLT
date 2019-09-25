@@ -1,0 +1,43 @@
+
+* /*Representa a todas las etiquetas existentes.*/
+	{
+		margin:0;
+		padding: 0;
+		transition: all 4s;
+		/*Hacemos esto para sacar los margenes predefinidos.*/
+	}
+
+section
+	{
+		background-color: red;
+		height: 20em;/*Define el alto. medidas px,em,%.*/
+		width: 600px;/*Define el ancho. medidas px,em,%.*/
+		margin: 10px auto;/*Se pueden poner 1, 2 0 4 valores.*/
+		padding: 40px;
+		display: block;
+	}
+
+section:hover
+	{
+		width: 300px;
+		background-color: blue;
+	}
+h1
+	{	
+		margin-top: 20px;
+		margin-left: 30px;
+		width: 250px;
+		display: inline-block;
+	}
+
+p
+	{
+		width: 200px;
+		float: left;
+		text-align: justify;
+	}
+
+p:hover
+	{
+		color: white;
+	}
