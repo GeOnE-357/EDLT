@@ -1,0 +1,36 @@
+body
+	{
+		display: grid;/*Definimos al <body> como una grilla.*/
+		grid-template-columns: 1fr 1fr;/*repeat(5,200px);/*200px 200px 200px 200px; /*Define la cantidad de columnas que queremos que tenga el esqueleto de la grilla.*/
+		grid-template-rows: repeat(3, 1fr);/* 1fr 1fr 1fr. Este define la cantidad de filas de la grilla.*/
+	}
+
+
+header
+	{
+		background-color: yellow;
+		color: white;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		text-align: center;
+		/*display: grid;
+		grid-template-columns: repeat(4, 1fr);*/
+	}
+
+/*
+header > h1 
+	{
+		color: blue;
+		grid-column-start: 2;
+		grid-column-end: 4;
+	}
+*/
+
+div
+	{
+		background-color: red;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
