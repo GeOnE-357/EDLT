@@ -1,0 +1,39 @@
+ 
+section > img /*Solo afecta a las <img> que estan dentro de una <section>.*/
+	{
+		/*height: 100px; /*Altura*/
+		width: 100%; /*Anchura XD*/
+		opacity:1;
+	}
+
+section > img:hover /*Pseudo-Elemento: pasar el mouse por encima.*/
+	{
+		opacity: 0.5;	
+	}
+
+section > img:nth-child(5) /*Pseudo-Elemento: Segundo hijo.*/
+	{
+		width: 75%;
+	}
+
+img
+	{
+		width: 50%;
+		opacity: 0.5;
+	}
+
+article > img
+	{
+		width: 75%;
+	}
+
+
+video
+	{
+		width: 100%;
+	}
+
+iframe
+	{
+		width: 100%;
+	}
