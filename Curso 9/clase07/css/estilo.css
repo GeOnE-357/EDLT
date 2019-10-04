@@ -1,0 +1,34 @@
+section
+	{
+		height: 400px;
+	}
+
+#sec1 /*Identificador, "#" y el nombre del identificador.*/
+	{
+		background: red;
+		width: 500px;
+		margin: 0 auto;
+		color: white;
+	}
+
+.principal /*Clase "." y el nombre de la clase.*/
+	{
+		text-align: center;
+	}
+
+section.noticia
+	{
+		font-size: 30px;
+		padding: 50px;
+		background-color: green;
+	}
+
+section
+	{
+		background-color: blue;
+	}
+
+section
+	{
+		background-color: yellow;
+	}
