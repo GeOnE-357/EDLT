@@ -1,0 +1,47 @@
+/*-------1° Vista de celular-------*/
+*
+	{
+		margin:0;
+		padding: 0;
+		transition: 1s;
+	}
+
+header
+	{
+		background-color: blue;
+		color: rgba(255,255,255,1);
+		font-family: 'Mansalva', cursive, 'Arial';
+		padding: 20px;
+	}
+
+section, aside
+	{
+		height: 300px;
+		background-color: red;
+		min-width:340px; 
+		margin: 10px auto;
+	}
+
+aside
+	{
+		display: none;
+	}
+/*-------2° Vista de PC-------*/
+
+@media screen and (min-width:800px)
+	{
+		section
+			{
+				width: 57%;
+				margin: 1%;
+				display: inline-block;
+			}
+
+		aside
+			{
+				width: 20%;
+				margin:1%;
+				background-color: blue;
+				display: inline-block;
+			}
+	}
