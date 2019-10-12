@@ -1,0 +1,79 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+		transition: 1s;	
+	}
+
+body
+	{
+		background-color: rgba(0,0,0,0.2);
+	}
+
+
+section
+	{
+		background-color: white;
+		margin: 0;
+		padding: 20px 8px;
+		display: grid;
+		grid-template-rows: 40vh 1fr;
+		grid-template-columns: 1fr;
+	}
+
+article.imagen /*Articulos que tienen la clase imagen.*/
+	{
+		background-image: url(../img/gato.jpg);
+		background-size: cover; /*Cubre todo el contenedor.*/
+		background-position: center; /*Se centra el contenido.*/
+		background-repeat: no-repeat; /*No se repita la imagen de fondo.*/
+		max-height: 40vh; /* 40vh(viewport-height) = 40 por ciento de la altura del dispositivo.*/
+		border-radius: 10px;
+	}
+
+h2
+	{
+		margin-top: 10px;
+		font-family: "Arial";
+		color: grey;
+	}
+
+h3
+	{
+		margin-top: 5px;
+		font-family: "Arial";
+		color: grey;
+	}
+
+p
+	{
+		margin-top: 20px;
+	}
+
+@media screen and (min-width:600px)
+	{
+		section
+			{
+				grid-template-rows: 1fr;
+				grid-template-columns: 60% 30%;
+				max-width: 550px;
+				margin:10px auto;
+			}
+
+		article
+			{
+				padding-left:10px; 
+			}	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
