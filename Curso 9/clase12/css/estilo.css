@@ -1,0 +1,18 @@
+section
+	{
+		background-color: red;
+	}
+
+section > section
+	{
+		background-color: blue;
+		color: white;
+		width: 50%;
+	}
+
+article > section
+	{
+		background-color: green;
+		color:white;
+		width: 75%;
+	}
