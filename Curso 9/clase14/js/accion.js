@@ -42,3 +42,22 @@ function mostrarOcultar()
 				ban=false;	
 			}
 	}
+
+/*Traer a la etiqueta <img>*/
+var img=document.getElementsByTagName("img");
+img[0].onmouseover=cambio;
+img[1].onmouseout=cambio2;
+
+function cambio()
+	{
+		/*img.src="img/gato2.jpg";*/
+		img[0].className="desaparecer";
+		img[1].className="aparecer gato2";	
+	}
+
+function cambio2()
+	{
+		/*img.src="img/gato.jpg";*/
+		img[1].className="desaparecer gato2";
+		img[0].className="aparecer";
+	}
