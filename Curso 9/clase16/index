@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clase 16 - Intervalos y Delay</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<section>
+		<h2 id="numero"></h2>
+		<h2 id="numero2"></h2>
+	</section>
+	<section>
+		<h2 id="numero3"></h2>
+	</section>
+
+	<script type="text/javascript" src="js/accion.js"></script>
+</body>
+</html>
