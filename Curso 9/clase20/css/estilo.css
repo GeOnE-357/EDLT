@@ -1,0 +1,11 @@
+article
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+article > section:nth-child(1)
+	{
+		grid-column: span 4;
+		height: 100px;
+	}
