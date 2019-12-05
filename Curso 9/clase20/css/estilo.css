@@ -1,7 +1,16 @@
+body
+	{
+		height: 100vh;
+		display: grid;
+	}
+
 article
 	{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
+		width: 400px;
+		margin:auto;
+		box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
 	}
 
 article > section:nth-child(1)
@@ -9,3 +18,31 @@ article > section:nth-child(1)
 		grid-column: span 4;
 		height: 100px;
 	}
+
+section
+	{
+		text-align: center;
+		background-color: rgba(50,255,100,1);
+	}
+
+section:hover
+	{
+		background-color: rgba(50,255,100,0.3);	
+	}
+
+section.num
+	{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+	}
+
+section.num:hover
+	{
+		background-color: rgba(0,0,0,0.3);
+	}
+
+section.ope, section.ope:hover
+	{
+		background-color: white;
+	}
+
